@@ -1,0 +1,15 @@
+body{
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: lightgrey;
+}
+.content{
+    max-width: 1000px;
+    margin: auto;
+    background-color: grey;
+    
+}
+#top{
+    height: 75px;
+    max-width: 500px;
+    margin: auto;
+}
