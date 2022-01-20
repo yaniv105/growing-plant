@@ -12,7 +12,7 @@ const { link } = require('fs');
 var mysql = require('mysql');
 // const variables for runing app
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 4000;
 
 //use morgan in tiny mode
 app.use(morgan('tiny'));
