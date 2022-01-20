@@ -1,4 +1,5 @@
 import { Outlet,Link } from "react-router-dom";
+import "./App.css";
 
 export function App() {
   return (
@@ -9,7 +10,7 @@ export function App() {
           paddingBottom: "1rem"
         }}
         >
-          <Link to="/">Home</Link>{ " | "}
+          <Link to="/home">Home</Link>{ " | "}
           <Link to="/Settings">Settings</Link>
         </nav>
         <Outlet />
