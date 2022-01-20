@@ -1,4 +1,16 @@
+main{
+    background-color: deepskyblue;
+}
 .inline{
     display: inline-block;
-    border : 1px black;
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+    border: 1px black ;
+    background-color: darkgrey;
+}
+.details{
+    background-color: darkgrey;
+    width: auto;
+    height: 250px;
 }

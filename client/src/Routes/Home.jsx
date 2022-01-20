@@ -11,6 +11,9 @@ export default function Home() {
     <div className="inline">
       
       </div>
+      <div className="details">
+
+      </div>
     <Outlet />
     </main>
   );
