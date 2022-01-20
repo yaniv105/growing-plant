@@ -18,11 +18,7 @@ con.connect(function (err) {
 
 
 function router(nav) {
-   
 
-    
-  
-    //route for settings
     autogrowrouter.route('/').get((req, res) => {
  
         con.query('SELECT * FROM growing_plant.details', (err, rows) => {

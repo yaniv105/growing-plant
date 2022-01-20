@@ -32,7 +32,7 @@
     "dealay": "2500",
     "env": {
       "NODE_ENV": "devolopment",
-      "PORT": 3000
+      "PORT": 4000
     }
   }
 }
